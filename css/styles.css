@@ -1,0 +1,93 @@
+/*Media queries style sheet, plus some other needed stuff.*/
+
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.profile{
+	height: 180px;
+}
+
+.jumbotron{
+	background-image: url('../img/whitewoodpanel.jpg');
+	padding-bottom: 5px;
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.row{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.footer{
+	background-image: url('../img/whitewoodpanel.jpg');
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#cont{
+	background-image: url('../img/palewoodpanel.jpg');
+}
+
+body{
+	background-image: url('../img/brownwoodpanel.jpg');
+}
+
+
+/* Xtra Small */
+@media (max-width: 767px) {
+	.xs-text-centered {
+		text-align: center;
+	}
+	.sm-text-centered {
+		text-align: center;
+	}
+
+	.md-text-centered {
+		text-align: center;
+	}
+
+	.lg-text-centered {
+		text-align: center;
+	}
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sm-text-centered {
+		text-align: center;
+	}
+
+	.md-text-centered {
+		text-align: center;
+	}
+
+	.lg-text-centered {
+		text-align: center;
+	}
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.md-text-centered {
+		text-align: center;
+	}
+
+	.lg-text-centered {
+		text-align: center;
+	}
+}
+
+/* Large */
+@media (min-width: 1200px) {
+	.lg-text-centered {
+		text-align: center;
+	}
+}
