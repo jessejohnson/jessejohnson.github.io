@@ -1,267 +1,155 @@
 <!DOCTYPE html>
-<!-- saved from url=(0056)file:///home/jesse/Documents/bootstrapProject/index.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Jesse's Homepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jojo's Webpage</title>
+
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Personal Style Sheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="jumbotron">
+    <!-- top nav -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-      <!-- Header for medium and large screens -->
-        <div class="row hidden-xs hidden-sm">
-          <div class="col-md-8">
-            <h1>meet jesse johnson</h1>
-            <h3><em>Entrepreneur-in-Training at MEST</em></h3>
-            <ul class="list-inline list-unstyled">
-              <li><a class="btn btn-default transparent" href="https://www.facebook.com/williamsaintgeorge" target="_blank"><i class="icon-facebook"></i> facebook</a></li>
-              <li><a class="btn btn-default transparent" href="https://twitter.com/wsgeorge" target="_blank"><i class="icon-twitter"></i> twitter</a></li>
-              <li><a class="btn btn-default transparent" href="http://www.linkedin.com/profile/view?id=107587255&trk=nav_responsive_tab_profile" target="_blank"><i class="icon-linkedin"></i> linkedIn</a></li>
-              <li><a class="btn btn-default transparent" href="http://wheresthefridge.wordpress.com/" target="_blank"><i class="icon-globe"></i> wordpress</a></li>
-              <li><a class="btn btn-default transparent" href="https://github.com/jessejohnson" target="_blank"><i class="icon-github"></i> github</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive img-thumbnail pull-right profile" src="img/profile.jpg">
-          </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-
-        <!-- Header for small and extra small screens -->
-        <div class="row hidden-md hidden-lg">
-          <div class="sm-text-centered">
-            <img class="img-responsive img-thumbnail profile" src="img/profile.jpg">
-          </div>
-          <div class="sm-text-centered">
-            <h1>meet jesse johnson</h1>
-            <h3><em>EIT at MEST</em></h3>
-
-            <!-- Visible only for small screens -->
-            <ul class="list-inline list-unstyled visible-sm">
-              <li><a class="btn btn-default transparent" href="https://www.facebook.com/williamsaintgeorge" target="_blank"> facebook</a></li>
-              <li><a class="btn btn-default transparent" href="https://twitter.com/wsgeorge" target="_blank"> twitter</a></li>
-              <li><a class="btn btn-default transparent" href="http://www.linkedin.com/profile/view?id=107587255&trk=nav_responsive_tab_profile" target="_blank" target="_blank"> linkedIn</a></li>
-              <li><a class="btn btn-default transparent" href="http://wheresthefridge.wordpress.com/" target="_blank"> wordpress</a></li>
-              <li><a class="btn btn-default transparent" href="https://github.com/williamsaintgeorge" target="_blank"> github</a></li>
-            </ul>
-
-            <!-- Visible only for extra small screens -->
-            <ul class="list-inline list-unstyled visible-xs">
-              <li><a class="btn btn-default transparent" href="https://www.facebook.com/williamsaintgeorge" target="_blank"><i class="icon-facebook"></i></a></li>
-              <li><a class="btn btn-default transparent" href="https://twitter.com/wsgeorge" target="_blank"><i class="icon-twitter"></i></a></li>
-              <li><a class="btn btn-default transparent" href="http://www.linkedin.com/profile/view?id=107587255&trk=nav_responsive_tab_profile" target="_blank"><i class="icon-linkedin"></i></a></li>
-              <li><a class="btn btn-default transparent" href="http://wheresthefridge.wordpress.com/" target="_blank"><i class="icon-globe"></i></a></li>
-              <li><a class="btn btn-default transparent" href="https://github.com/williamsaintgeorge" target="_blank"><i class="icon-github"></i></a></li>
-            </ul>
-          </div>
+        <div class="navbar-collapse collapse">  
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="">writer</a></li>
+            <li><a href="">reader</a></li>
+            <li><a href="">maker of things</a></li>
+          </ul>
+          <!-- right menu for resume -->
+          <ul class="nav navbar-nav navbar-right">
+            <!-- my resume -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">resum&eacute; <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <!--  -->
+                <li class="dropdown-header">stuff I'm good at</li>
+                <li><a href="#">UI/UX Design</a></li>
+                <li><a href="#">Django</a></li>
+                <li><a href="#">Flask</a></li>
+                <li><a href="#">Angular.js</a></li>
+                <li><a href="#">Android Development</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">where I've worked</li>
+                <li><a href="#">Step Technologies - Intern</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">where I've schooled</li>
+                <li><a href="http://meltwater.org/" target="_blank">MEST</a></li>
+                <li><a href="http://knust.edu.gh/" target="_blank">KNUST</a></li>
+                <li><a href="http://www.afaccra.com/" target="_blank">Alliance Fran&ccedil;aise d'Accra</a></li>
+                <li><a href="http://www.oldachimotan.net/school/history" target="_blank">Achimota Senior High</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">what I've dabbled in</li>
+                <li><a href="#">Freelance Fashion Photography</a></li>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-
-    <!-- Header ends here, and body proper begins -->
-    <!-- The body, on larger displays, is divided into three columns,
-    one outlining the subject, the second providing the content
-    and the third providing additional information, links and the like -->
+    <!-- main content -->
     <div class="container">
-      <div class="row" id="cont">
-        <!-- Hidden in small screens -->
-        <div class="col-md-3 lg-text-centered hidden-xs hidden-sm">
-          <img src="icons/business-businessman-icon.png" height="100px" width="100px">
-          <h1>Who I Am</h1>
-        </div>
-
-        <div class="sm-text-centered hidden-md hidden-lg">
-          <h1>Who I Am</h1>
-        </div>
-
-        <div class="col-md-6 sm-text-centered">
-          <h3>Everything that matters</h3>
-          <p>Born and raised in Ghana, my life has been coloured by curiosity, bursts of creativity
-          and the occassional dream to do something different.</p>
-
-          <p>I'm skeptical about many things, and cynical about most, but I like to keep an open mind
-          and liberal views on life. My interests lie within the arts and sciences, and I spend most
-          of my time thinking. Thinking freely is the most liberating thing a man can do.</p>
-        </div>
-
-        <div class="col-md-3 sm-text-centered">
-          <h3>Quick Jesse Facts</h3>
-          <ul class="list-unstyled">
-            <li><i class="icon-ok"></i><em> Book worm with a taste for High Fantasy</em></li>
-            <li><i class="icon-ok"></i><em> Enjoys quiet moments for reflection</em></li>
-            <li><i class="icon-ok"></i><em> Is talkative only when debating history and/or science</em></li>
-            <li><i class="icon-ok"></i><em> Is interested in so many things</em></li>
-          </ul>
-        </div>
+      <div class="jumbotron">
+        <h2 class="text-center">
+          Hi, I'm Jesse
+        </h2>
       </div>
-
-      <!-- End of first content row -->
-
-      <div class="row" id="cont">
-        <!-- Optional picture only hidden in smaller screen sizes -->
-        <div class="col-md-3 lg-text-centered hidden-xs hidden-sm">
-          <img src="icons/hardware-monitor-icon.png" height="100px" width="100px">
-          <h1>What I Do</h1>
-        </div>
-
-        <div class="sm-text-centered hidden-md hidden-lg">
-          <h1>What I Do</h1>
-        </div>
-
-        <div class="col-md-6 sm-text-centered">
-          <h3>The geek within</h3>
-          <p>I'm a developer. I made this site. I also make mobile and desktop apps, 
-          tuna sandwiches and mashed potatoes.</p>
-
-          <p>I'm in MEST because I want to be a globally successful software entrepreneur.
-          I believe in the power of tech and people, and I'd love to make a ton of money
-          doing what I love. Tech stuff.</p>
-        </div>
-
-        <div class="col-md-3 sm-text-centered">
-          <h3>In My Toolbox</h3>
-          <ul class="list-unstyled">
-            <li><i class="icon-ok"></i><em> Android/Java development</em></li>
-            <li><i class="icon-ok"></i><em> Website/Webapp development</em></li>
-            <li><i class="icon-ok"></i><em> Enough C/C++ proficiency to feel dated</em></li>
-            <li><i class="icon-ok"></i><em> A good deal of crude business tactics</em></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- End of second content row -->
-
-      <div class="row" id="cont">
-
-        <div class="col-md-3 lg-text-centered hidden-xs hidden-sm">
-          <img src="icons/university-icon.png" height="100px" width="100px">
-          <h1>What I Know</h1>
-        </div>
-
-        <div class="sm-text-centered hidden-md hidden-lg">
-          <h1>What I Know</h1>
-        </div>
-
-        <div class="col-md-6 sm-text-centered">
-          <h3>A polymath</h3>
-          <p>I grew up wanting to know everything. It has brought me this far, and is sure
-          to see me further. The corollary is, I read an awful lot.</p>
-
-          <p>I attended <strong>Achimota Senior High</strong>, where I developed my knowledge in the sciences,
-          and a strong passion for poetry and literature in general. It was there I learned
-          never to underestimate the power of random reading. Because you may end up needing
-          every bit of knowledge you chance upon.</p>
-
-          <p>I had a short stint at <strong>Alliance Francaise d'Accra</strong>, where I added French
-          to my language portfolio.</p>
-
-          <p><strong>KNUST</strong> - my university - was a mix of highs and lows, dashed expectations
-          and awesome friendships. I learned a lot there, earning a Bachelor's degree in Computer Science
-          in the process.</p>
-        </div>
-
-        <div class="col-md-3 sm-text-centered">
-          <h3>Academic Interests</h3>
-          <ul class="list-unstyled">
-            <li><i class="icon-ok"></i><em> Astrophysics</em></li>
-            <li><i class="icon-ok"></i><em> Evolutionary Biology</em></li>
-            <li><i class="icon-ok"></i><em> Theoretical Computing</em></li>
-            <li><i class="icon-ok"></i><em> Artificial Intelligence</em></li>
-            <li><i class="icon-ok"></i><em> Pure Mathematics</em></li>
-            <li><i class="icon-ok"></i><em> Neuropsychology</em></li>
-            <li><i class="icon-ok"></i><em> Medieval European History</em></li>
-            <li><i class="icon-ok"></i><em> Linguistics</em></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- End of third row -->
-
-      <div class="row" id="cont">
-
-        <div class="col-md-3 lg-text-centered hidden-xs hidden-sm">
-          <img src="icons/cheese-icon.png" height="100px" width="100px">
-          <h1>What I Love</h1>
-        </div>
-
-        <div class="sm-text-centered hidden-md hidden-lg">
-          <h1>What I Love</h1>
-        </div>
-
-        <div class="col-md-6 sm-text-centered">
-          <h3>The Passion</h3>
-          <p>I am the extreme hobbyist. I love to have hobbies. I cannot live without them.</p>
-
-          <p>My many interests keep me busy with stuff I love to do. Besides deep reflection,
-          I work as a freelance fashion photographer, a poet, graphic designer and painter.</p>
-
-          <p>Unfortunately, I don't do much painting now.</p>
-
-          <p>I'm an active blogger on many different platforms, and style myself as a critic of
-          poetry. I have no right to the title of "novelist"; all endeavours to write my first
-          novel have failed. I only do short stories.</p>
-        </div>
-
-        <div class="col-md-3 sm-text-centered">
-          <h3>Blog Exhibits</h3>
-          <ul class="list-unstyled">
-            <li><i class="icon-ok"></i><em> <a href="http://wheresthefridge.wordpress.com/" target="_blank"> Where's The Fridge</a></em></li>
-            <li><i class="icon-ok"></i><em> <a href="http://seriouspoetry.wordpress.com/" target="_blank"> Serious Poetry</a></em></li>
-            <li><i class="icon-ok"></i><em> <a href="http://williamsaintgeorge.blogspot.com/" target="_blank"> William Saint George's Poetry</a></em></li>
-            <li><i class="icon-ok"></i><em> <a href="http://williamsaintgeorge.wordpress.com/" target="_blank"> Short Stories &amp; Long Poems</a></em></li>
-            <li><i class="icon-ok"></i><em> <a href="http://arsphotographia.wordpress.com/" target="_blank"> Ars Photographia</a></em></li>
-            <li><i class="icon-ok"></i><em> <a href="http://500px.com/jojophotography" target="_blank"> My 500px Blog</a></em></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- End of fourth row -->
-
-      <div class="row" id="cont">
-
-        <div class="col-md-3 lg-text-centered hidden-xs hidden-sm">
-          <img src="icons/hammer-icon.png" height="100px" width="100px">
-          <h1>My Projects</h1>
-        </div>
-
-        <div class="sm-text-centered hidden-md hidden-lg">
-          <h1>My Projects</h1>
-        </div>
-
-        <div class="col-md-6 sm-text-centered">
-          <h3>Fork Me, I'm on Github</h3>
-          <p>I just joined the social coding site...</p>
-          <p>And here's what I've done so far.</p>
-        </div>
-
-        <div class="col-md-3 sm-text-centered">
-          <h3>Project Links</h3>
-          <ul class="list-unstyled">
-            <li><i class="icon-ok"></i><em> <a href="https://github.com/williamsaintgeorge/jessejohnson.github.io" target="_blank"> This Website</a></em></li>
-            <li><i class="icon-ok"></i><em> <a href="https://github.com/jessejohnson/javarepo" target="_blank"> My First Repository</a></em></li>
-          </ul>
-        </div>
+      <!-- row one, the pretentious introduction -->
+      <div class="row">
+        <h4 class="text-center">
+          I love to read and code,<br>
+          make stuff<br>
+          and I dream sometimes<br>
+          of the sublime and beautiful.<br><br>
+          I also know a bit of poetry.
+        </h4>
       </div>
     </div>
-
-    <!-- Footer -->
-    <div class="footer lg-text-centered">
-      <p><small>This website was created by Jesse Johnson, an Entrepreneur-in-Training at MEST</small></p>
+    <!-- bottom nav -->
+    <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/jessejohnson" target="_blank">github</a></li>
+            <li><a href="https://plus.google.com/u/0/117987181194773400643/posts" targt="_blank">google+</a></li>
+            <li><a href="https://twitter.com/wsgeorge" target="_blank">twitter</a></li>
+            <li><a href="https://www.facebook.com/williamsaintgeorge" target="_blank">facebook</a></li>
+            <li><a href="http://wsgeorge.tumblr.com/" target="_blank">tumblr</a></li>
+            <li><a href="http://gh.linkedin.com/pub/jesse-johnson/30/45/187" target="_blank">linkedin</a></li>
+            <li><a href="http://500px.com/jojophotography" target="_blank">500px</a></li>
+            <li><a href="https://www.behance.net/wsgeorge" target="_blank">behance</a></li>
+            <!-- my projects -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">projects <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <!-- my tech projects -->
+                <li class="dropdown-header">tech</li>
+                <li><a href="http://www.chillaxapp.co/" target="_blank">Chillax</a></li>
+                <li><a href="http://www.mobilefliks.com/" target="_blank">MobileFliks</a></li>
+                <li><a href="#" target="_blank">Flippy</a></li>
+                <li><a href="#" target="_blank">HeroHire</a></li>
+                <li><a href="#" target="_blank">Sanaa Africa</a></li>
+                <li class="divider"></li>
+                <!-- my writing projects -->
+                <li class="dropdown-header">writing</li>
+                <li><a href="http://williamsaintgeorge.wordpress.com/everything-that-matters/" target="_blank">Everything That Matters</a></li>
+                <li><a href="http://williamsaintgeorge.wordpress.com/table-of-contents/" target="_blank">Untitled Mythopoeic Work</a></li>
+                <li class="divider"></li>
+                <!-- my reading projects -->
+                <li class="dropdown-header">reading</li>
+                <li><a href="http://en.wikipedia.org/wiki/Notes_from_Underground" target="_blank">Notes From Underground - Dostoyevsky</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/The_Casual_Vacancy" target="_blank">The Casual Vacancy - JK Rowling</a></li>
+              </ul>
+            </li>
+            <!-- my blogs -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">blogs <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://wheresthefridge.wordpress.com/" target="_blank">Where's The Fridge</a></li>
+                <li><a href="http://williamsaintgeorge.wordpress.com/" target="_blank">Short Fiction &amp; Mythopoeia</a></li>
+                <li class="divider"></li>
+                <li><a href="http://williamsaintgeorge.blogspot.com/" target="_blank">WS George's Poetry</a></li>
+                <li><a href="http://seriouspoetry.wordpress.com/" target="_blank">Serious Poetry</a></li>
+                <li><a href="http://arsphotographia.wordpress.com/" target="_blank">Ars Photographia</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="file://code.jquery.com/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./Jesse's Homepage_files/bootstrap.min.js"></script>
-  
-</body></html>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
