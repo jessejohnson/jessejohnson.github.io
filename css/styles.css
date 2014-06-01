@@ -8,7 +8,7 @@ body{
 }
 
 .container .jumbotron{
-	margin-top: 80px;
+	margin-top: 20px;
 	border-radius: 0px;
 	background-color: transparent;
 	color: #333333;
@@ -25,6 +25,17 @@ h1, h2, h3, h4, p, ul li, .navbar-header{
 	border-style: none;
 }
 
+.navbar-default .navar-collapse.in{
+	background-color: inherit;
+	border-style: none;
+}
+
+.navbar-static-bottom{
+	margin-top: 90px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
 .navbar-default .navbar-nav li a{
 	color: #333333;
 }
@@ -34,13 +45,16 @@ h1, h2, h3, h4, p, ul li, .navbar-header{
 }
 
 ul .dropdown-menu{
-	/*opacity: 0.5;*/
-	background-color: transparent;
+	background-color: #ffffff;
 }
 
 ul .dropdown-menu li a:hover{
 	background-color: #333333;
 	color: #ffffff;
+}
+
+.navbar-nav .open .dropdown-menu{
+	background: url('../img/palewoodpanel.jpg');
 }
 
 .element{
