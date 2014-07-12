@@ -1,6 +1,6 @@
 body{
-	/*background-color: #F6F5F0;*/
-	background: url('../img/palewoodpanel.jpg') center center fixed;
+	background-color: #F6F5F0;
+	/*background: url('../img/palewoodpanel.jpg') center center fixed;*/
 }
 
 .container{
@@ -15,7 +15,7 @@ body{
 }
 
 h1, h2, h3, h4, p, ul li, .navbar-header{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
 	color: #333333;
 }
@@ -54,7 +54,8 @@ ul .dropdown-menu li a:hover{
 }
 
 .navbar-nav .open .dropdown-menu{
-	background: url('../img/palewoodpanel.jpg');
+	background-color: #F6F5F0;
+	/*background: url('../img/palewoodpanel.jpg');*/
 }
 
 .element{
