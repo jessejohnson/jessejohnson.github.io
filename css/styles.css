@@ -58,6 +58,10 @@ ul .dropdown-menu li a:hover{
 	/*background: url('../img/palewoodpanel.jpg');*/
 }
 
+.link-alert {
+	font-weight: bolder;
+}
+
 .element{
 	display: inline;
 }
