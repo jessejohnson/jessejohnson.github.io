@@ -25,6 +25,10 @@ h1, h2, h3, h4, p, ul li, .navbar-header{
 	border-style: none;
 }
 
+.navbar-static-top{
+	margin-top: 100px;
+}
+
 .navbar-default .navar-collapse.in{
 	background-color: inherit;
 	border-style: none;
