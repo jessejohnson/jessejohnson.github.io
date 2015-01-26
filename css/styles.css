@@ -45,6 +45,10 @@ h1, h2, h3, h4, p, ul li, .navbar-header{
 	color: #EC407A;
 }
 
+.navbar-default .navbar-nav li a:hover{
+	color: #FFF;
+}
+
 .navbar .nav > li.dropdown.open > a{
 	background: transparent;
 }
