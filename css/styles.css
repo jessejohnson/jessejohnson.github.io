@@ -13,6 +13,7 @@ body{
 	border-radius: 0px;
 	background-color: transparent;
 	color: #EC407A;
+	/*text-shadow: 1px 1px 5px #222;*/
 }
 
 h1, h2, h3, h4, p, ul li, .navbar-header{
