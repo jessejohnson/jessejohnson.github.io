@@ -42,6 +42,11 @@ h1, h2, h3, h4, p, ul li, .navbar-header{
 	padding-bottom: 0px;
 }
 
+#link-alert{
+	/*font-weight: bolder;*/
+	color: #FFC107;
+}
+
 .navbar-default .navbar-nav li a{
 	color: #EC407A;
 }
@@ -72,9 +77,6 @@ ul .dropdown-menu li a:hover{
 	/*background: url('../img/palewoodpanel.jpg');*/
 }
 
-.link-alert {
-	font-weight: bolder;
-}
 
 .element{
 	display: inline;
