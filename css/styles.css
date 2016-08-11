@@ -1,92 +1,51 @@
 body{
-	/*background-color: #F6F5F0;*/
-	background-color: #333;
-	/*background: url('../img/palewoodpanel.jpg') center center fixed;*/
-}
-
-.container{
-	padding-top: 15px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .container .jumbotron{
-	margin-top: 20px;
-	border-radius: 0px;
 	background-color: transparent;
-	color: #EC407A;
-	/*text-shadow: 1px 1px 5px #222;*/
+}
+.jumbotron{
+	margin-bottom: 0px;
 }
 
-h1, h2, h3, h4, p, ul li, .navbar-header{
+.links{
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+h1, h2, h3, h4, p, ul li{
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
-	color: #EC407A;
-}
-
-.navbar-default{
-	background-color: inherit;
-	border-style: none;
-}
-
-.navbar-static-top{
-	margin-top: 100px;
-}
-
-.navbar-default .navar-collapse.in{
-	background-color: inherit;
-	border-style: none;
-}
-
-.navbar-static-bottom{
-	margin-top: 90px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
 }
 
 #link-alert{
-	/*font-weight: bolder;*/
 	color: #FFC107;
 }
 
-.navbar-default .navbar-nav li a{
-	color: #EC407A;
-}
-
-.navbar-default .navbar-nav li a:hover{
-	color: #FFF;
-}
-
-.navbar .nav > li.dropdown.open > a{
-	background: transparent;
-}
-
-li .dropdown-header{
-	color: #FFF;
-}
-
-/*ul .dropdown-menu{
-	background-color: #ffffff;
-}*/
-
-ul .dropdown-menu li a:hover{
-	background-color: #EC407A;
-	color: #ffffff;
-}
-
-.navbar-nav .open .dropdown-menu{
-	background-color: #333;
-	/*background: url('../img/palewoodpanel.jpg');*/
-}
-
-
 .element{
-	display: inline;
+	font-size: 15px;
+}
+
+a, a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+.content a:nth-child(even){
+	color: #333333;
+}
+.content a:nth-child(odd){
+	color: #888888;
 }
 
 /*typed cursor*/
 #typed-cursor{
+	visibility: hidden;
     opacity: 1;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 20px;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     -ms-animation: blink 0.7s infinite;
