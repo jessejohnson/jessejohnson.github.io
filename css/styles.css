@@ -1,6 +1,8 @@
 body{
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background: #333333 ;
+	color: #FFFFFF;
 }
 
 .container .jumbotron{
@@ -20,10 +22,6 @@ h1, h2, h3, h4, p, ul li{
 	line-height: 1.5;
 }
 
-#link-alert{
-	color: #FFC107;
-}
-
 .element{
 	font-size: 15px;
 }
@@ -34,10 +32,10 @@ a, a:hover{
 }
 
 .content a:nth-child(even){
-	color: #333333;
+	color: #FFFFFF;
 }
 .content a:nth-child(odd){
-	color: #888888;
+	color: #E2F237;
 }
 
 /*typed cursor*/
