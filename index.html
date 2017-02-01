@@ -51,7 +51,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <h2>Personal</h2>
+            <h2>Profile</h2>
             <p>
               <a href="http://www.wsgeorge.com/2016/01/01/new-habits/">Student Violinist</a>
               <a href="https://soundcloud.com/wsgeorge">Amateur Composer</a>
@@ -59,7 +59,8 @@
               <a href="http://www.wsgeorge.com/">Writer &amp; Editor</a>
               <a href="https://www.behance.net/wsgeorge">Graphic &amp; Interface Designer</a>
               <a href="https://github.com/jessejohnson">Full-stack Web Developer with Python &amp; JavaScript</a>
-              <a href="https://github.com/jessejohnson">Native Android Developer</a>
+              <a href="https://github.com/jessejohnson">Native Android &amp; iOS Developer</a>
+              <a href="https://wau.org/">Roman Catholic</a>
             </p>
           </div>
       </div>
@@ -87,7 +88,9 @@
         Pick randomly from subtitles
         */
         var subtitles = [
-        " I live off code, ^1000 books, ^1000 music ^2000 and cheese. "
+        " I live off code, ^1000 books, ^1000 music ^2000 and cheese.",
+        " I am an eternal hobbyist.",
+        " Under construction."
         ];
         $(".element").typed({
           strings: ["", subtitles[Math.floor((Math.random() * subtitles.length))]],
@@ -97,9 +100,9 @@
       });
       </script>
       <script>
-        var b = window.baffle('p a', 
+        var b = window.baffle('h1', 
           {
-            characters: '▓░█ ▒░▒▓░ ▒░░▓> ▒█▓ █░><▒ █▒█▓ ▓░/ ▓▓/█ █▓▒', 
+            characters: 'b6c7807bb10b5d867000',// ▓░█ ▒░▒▓░ ▒░░▓> ▒█▓ █░><▒ █▒█▓ ▓░/ ▓▓/█ █▓▒', 
           speed: 50
         });
         b.start().once().reveal(500, 500);
