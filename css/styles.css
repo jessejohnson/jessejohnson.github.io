@@ -1,69 +1,41 @@
-body{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background: #333333 ;
+#summaries{
+	padding: 10% 10%;
+	min-height: 100vh;
 	color: #FFFFFF;
+	background: #333333;
+	box-shadow: 0px 2px 10px rgba(175, 171, 171, 0.9);
 }
-
-.container .jumbotron{
-	background-color: transparent;
+#cv{
+	padding: 2% 10%;
+	color: #333333;
 }
-.jumbotron{
-	margin-bottom: 0px;
+.banner-text{
+	margin-bottom: 10%;
 }
-
-.links{
-	padding-top: 50px;
-	padding-bottom: 15px;
+.banner-text h1{
+	font-size: 4.5rem;
 }
-
-h1, h2, h3, h4, p, ul li{
-	font-family: 'Roboto', sans-serif;
-	line-height: 1.5;
-}
-
-.element{
-	font-size: 15px;
-}
-
 a, a:hover{
 	text-decoration: none;
 	color: inherit;
 }
-
-.content a:nth-child(even){
+a:nth-child(even){
 	color: #FFFFFF;
 }
-.content a:nth-child(odd){
+a:nth-child(odd){
 	color: #E2F237;
+} 
+hr{
+	background: rgba(252, 247, 247, 0.1);
+	width: 70%;
 }
-
-/*typed cursor*/
-#typed-cursor{
-	visibility: hidden;
-    opacity: 1;
-    font-weight: 100;
-    font-size: 20px;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+table{
+	font-size: 0.87rem;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+.footer-text{
+	color: #333333;
+	font-size: 0.8rem;
+	text-justify: auto;
 }
 
 /*div{
